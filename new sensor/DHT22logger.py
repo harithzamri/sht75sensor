@@ -11,6 +11,7 @@ import MySQLdb
 import smtplib
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
+from sht_sensor import Sht
 
 # function for reading DHT22 sensors
 def sensorReadings(gpio1,gpio2):
